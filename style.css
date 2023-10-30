@@ -1,0 +1,113 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  /* margin: 0 auto; */
+}
+
+body {
+  margin-top: 40px;
+  line-height: 40px;
+}
+
+.container {
+  width: 500px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 30px;
+  color: rgb(44, 0, 139);
+}
+
+h1 span {
+  text-decoration: rgb(225, 188, 1) wavy underline;
+}
+
+h2 {
+  font-size: 18px;
+  color: white;
+}
+
+p {
+  font-size: 16px;
+  color: #111111;
+  line-height: normal;
+}
+
+img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: #111111;
+}
+
+ul {
+  padding: 0;
+  line-height: 2;
+  list-style: none;
+  padding-left: 0px;
+}
+
+#btn_url {
+  padding: 15px;
+  background-color: #111111;
+  color: white;
+  border-radius: 3px;
+}
+
+#btn_url:hover {
+  padding: 15px;
+  background-color: rgb(77, 25, 189);
+  color: white;
+  border-radius: 3px;
+}
+
+#card_social {
+  background-color: rgb(77, 25, 189);
+}
+
+#card_social p {
+  color: white
+}
+
+#card_social a {
+  color: white
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  margin: 5px 20px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 6px;
+}
+
+.card p {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 350px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
